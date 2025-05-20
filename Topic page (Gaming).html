@@ -1,0 +1,239 @@
+<!-- Informs the web browser about the HTML -->
+<!DOCTYPE html>
+<!-- This improve accessibility to the website by stating the language is English -->
+<html lang="en">
+<head>
+<!-- This also improve accessibility to the website by automatically adjusting the size of the website to make it fit all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trendly Stats - Homepage</title>
+  <!-- Linking CSS to the HTML -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="navbar">
+    <div>
+      <img src="Logo.jpg" alt="Trendly Logo" style="height: 40px; vertical-align: middle;">
+      <span style="margin-left: 10px; font-size: 22px; font-weight: bold;">Trendly Stats</span>
+    </div>
+    <div>
+      <a href="Home page.html" class="button-link">Home</a>
+      <a href="Topics page.html" class="button-link">Topics</a>
+      <a href="ATW.html" class="button-link">About The Website</a>
+      <a href="Compare.html" class="button-link">Comparison Feature</a>
+    </div>
+  </div>
+
+  <!-- Screen Section (In front of the background) -->
+  <div class="screen-section">
+    <div class="inscreen-text">
+      <h1>Gaming</h1>
+      <h2>Gaming videos on YouTube are videos where the content creator plays, reviews, or streams video games for entertainment</h2>
+      <h2>
+        <span onclick="document.getElementById('BI').scrollIntoView();">Brief Information</span>
+        <span onclick="document.getElementById('PP').scrollIntoView();">Performance and Popularity</span>
+        <span onclick="document.getElementById('AR').scrollIntoView();">Audience and Reach</span>
+        <span onclick="document.getElementById('GC').scrollIntoView();">Top 3 Gaming Channels</span>
+      </h2>
+    </div>
+    <div class="bottom-text">
+      <p>Click the button on the top left of the screen to select what information do you want to select or just scroll down</p>
+      <p>↓ Scroll down to see more information ↓</p>
+    </div>
+  </div>
+
+  <!-- Sidebar Button -->
+  <input type="checkbox" id="sidebarToggle" class="sidebar-toggle" />
+  <label for="sidebarToggle" class="sidebar-btn" aria-expanded="false" aria-controls="sidebar">
+    ☰
+  </label>
+
+  <!-- Sidebar Navigation -->
+  <nav id="sidebar" class="sidebar">
+    <span onclick="document.getElementById('BI').scrollIntoView();">Brief Information</span>
+    <span onclick="document.getElementById('PP').scrollIntoView();">Performance and Popularity</span>
+    <span onclick="document.getElementById('AR').scrollIntoView();">Audience and Reach</span>
+    <span onclick="document.getElementById('GC').scrollIntoView();">Top 3 Gaming Channels</span>
+  </nav>
+
+  <!-- Main Content Section -->
+  <div class="section">
+    <div class="fade-in">
+
+      <!-- Section: Brief Information -->
+      <div id="BI">
+        <h1><strong>Brief Information About Gaming</strong></h1>
+        <p><strong>What is gaming?</strong></p>
+        <p>Gaming content on YouTube includes videos and live streams about games such as gameplay videos, speed runs, and different game reviews. It's one of the most watched categories on YouTube and even has its own section.</p>
+
+        <p><strong>Why is it so popular?</strong></p>
+        <p>Gaming content is popular on YouTube because it attracts many viewers who like to watch other people play games and also like to interact with the gaming community, such as learning tips from gamers.</p>
+
+        <p><strong>The Different Types of Gaming Videos on YouTube</strong></p>
+        <p><strong>Gameplay Videos</strong></p>
+        <p>The player shows what it's like to play the game, often with commentary from the gamer.</p>
+
+        <p><strong>Walkthroughs</strong></p>
+        <p>The player helps viewers by showing how to beat parts of a game.</p>
+
+        <p><strong>Let’s Plays</strong></p>
+        <p>The gamer plays through a game for fun and talks while playing.</p>
+
+        <p><strong>Multiplayer Matches</strong></p>
+        <p>The gamer play online games with or against others and share the fun moments.</p>
+
+        <p><strong>Montages</strong></p>
+        <p>Short clips of cool, exciting, or funny game moments are edited together.</p>
+
+        <p><strong>Machinimas</strong></p>
+        <p>Gamers use games to make short films or stories using the game graphics.</p>
+
+        <p><strong>Live Streams</strong></p>
+        <p>Gamers play live and interact with viewers while playing.</p>
+
+        <p><strong>Reviews</strong></p>
+        <p>The gamer gives their opinion on whether a game is good or bad.</p>
+
+        <p><strong>Challenge Videos</strong></p>
+        <p>Players try to complete different random challenges in a game.</p>
+
+        <p><strong>Speedruns</strong></p>
+        <p>Players try to finish games as fast as they can, aiming to break records.</p>
+
+        <p><strong>Fan Videos</strong></p>
+        <p>Videos made by fans, like game music videos or meme edits from the videos they sourced.</p>
+
+        <p><strong>Tutorials</strong></p>
+        <p>The gamers teach the viewers how to do something tricky in a game.</p>
+
+        <p><strong>News Videos</strong></p>
+        <p>Updates and news about new games or gaming events often are more unprofessional compared to actual news videos.</p>
+
+        <p><strong>Video Essays</strong></p>
+        <p>Gamers explore deeper ideas or stories behind games.</p>
+      </div>
+
+      <hr class="custom-hr">
+
+      <!-- Section: Performance and Popularity -->
+      <div id="PP">
+        <h1><strong>Performance and Popularity</strong></h1>
+        <p>Notes: These data are accurate as of 2025 and the accuracy of these data depends on multiple factors</p>
+
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>Metric</th>
+              <th>Estimated numbers</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Total Views (Annually)</td><td>100+ Billion</td></tr>
+            <tr><td>Average Views per Video</td><td>500K to 5 Million</td></tr>
+            <tr><td>Like-to-Dislike Ratio</td><td>96%</td></tr>
+            <tr><td>Average Comments</td><td>10,000 comments per video</td></tr>
+            <tr><td>Watch Time</td><td>Around 7.5 minutes per viewer</td></tr>
+            <tr><td>Shares per Video</td><td>Around 15,000</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr class="custom-hr">
+
+      <!-- Section: Audience and Reach -->
+      <div id="AR">
+        <h1><strong>Audience and Reach</strong></h1>
+
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Viewer Age Groups</strong></td>
+              <td>
+                - <strong>13–17</strong>: 20%<br>
+                - <strong>18–24</strong>: 35%<br>
+                - <strong>25–34</strong>: 30%<br>
+                - <strong>Others</strong>: 15%
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Gender</strong></td>
+              <td>
+                - <strong>Male</strong>: Around 70%<br>
+                - <strong>Female</strong>: Around 30%
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Top Geographic Regions</strong></td>
+              <td>
+                - <strong>North America</strong><br>
+                - <strong>Europe</strong><br>
+                - <strong>South Korea & Japan</strong><br>
+                - <strong>Brazil & Latin America</strong>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+
+      <hr class="custom-hr">
+
+      <!-- Section: Top 3 Gaming YouTube Channels -->
+      <div id="GC">
+      <h1><strong>Top 3 Gaming YouTube Channels</strong></h1>
+
+        <!-- PewDiePie -->
+        <div class="video-box">
+          <h2>PewDiePie</h2>
+          <div class="video-wrapper">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/UMDv7gtqBYQ" title="YouTube Video Gaming 1" frameborder="0" style="border-radius: 12px; box-shadow: 0 0 12px rgba(0, 0, 0, 0.3); margin-bottom: 20px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>  
+          <p><strong>Videos:</strong> 4.82K</p>
+          <p><strong>Subscribers:</strong> 110M</p>
+          <p><strong>Views:</strong> 29.54B</p>
+        </div>
+
+        <!-- Mikecrack -->
+        <div class="video-box">
+          <h2>Mikecrack</h2>
+          <div class="video-wrapper">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/oZrCep273dU" title="YouTube Video Gaming 2" frameborder="0" style="border-radius: 12px; box-shadow: 0 0 12px rgba(0, 0, 0, 0.3); margin-bottom: 20px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p><strong>Videos:</strong> 2.12K</p> 
+          <p><strong>Subscribers:</strong> 56.4M</p>
+          <p><strong>Views:</strong> 20.23B</p>
+        </div>
+
+        <!-- Jess No Limit -->
+        <div class="video-box">
+          <h2>Jess No Limit</h2>
+          <div class="video-wrapper">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ysYyVWuWJ8c" title="YouTube Video Gaming 3" frameborder="0" style="border-radius: 12px; box-shadow: 0 0 12px rgba(0, 0, 0, 0.3); margin-bottom: 20px;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p><strong>Videos:</strong> 2.68K</p>
+          <p><strong>Subscribers:</strong> 54.2M</p>
+          <p><strong>Views:</strong> 6.81B</p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  <!-- Bottom Navigation Bar -->
+<div class="bottom-nav">
+    <div class="bottom-links">
+      <a href="Home page.html" class="button-link">Home</a>
+      <a href="Topics page.html" class="button-link">Topics</a>
+      <a href="ATW.html" class="button-link">About The Website</a>
+      <a href="Compare.html" class="button-link">Comparison Feature</a>
+    </div>
+  <p class="copyright">© 2025 Trendly Stats | All rights reserved</p>
+</div>
+
+</body>
+</html>

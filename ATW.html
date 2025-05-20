@@ -1,0 +1,63 @@
+<!-- Informs the web browser about the HTML -->
+<!DOCTYPE html>
+<!-- This improve accessibility to the website by stating the language is English -->
+<html lang="en">
+<head>
+<!-- This also improve accessibility to the website by automatically adjusting the size of the website to make it fit all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trendly Stats - Homepage</title>
+  <!-- Linking CSS to the HTML -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="navbar">
+    <div>
+      <img src="Logo.jpg" alt="Trendly Logo" style="height: 40px; vertical-align: middle;">
+      <span style="margin-left: 10px; font-size: 22px; font-weight: bold;">Trendly Stats</span>
+    </div>
+    <div>
+      <a href="Home page.html" class="button-link">Home</a>
+      <a href="Topics page.html" class="button-link">Topics</a>
+      <a href="ATW.html" class="button-link">About The Website</a>
+      <a href="Compare.html" class="button-link">Comparison Feature</a>
+    </div>
+  </div>
+
+<!-- Screen Section (In front of the background) -->
+  <div class="screen-section">
+    <div class="inscreen-text">
+      <h1>About The Website</h1>
+      <h2>This is where you can learn more about the website</h2>
+      <h2>
+        <a href="Topics page.html" class="button-link">Start Now</a>
+        <span onclick="document.getElementById('tutorial').scrollIntoView();">Tutorial</span>
+      </h2>
+    </div>
+    <p style="position: absolute; bottom: 40px; width: 100%; text-align: center; font-size: 16px; color: #f0f0f0;">
+      ↓ Scroll down to see more information ↓
+    </p>
+  </div>
+
+  <!-- Tutorial Section -->
+  <div class="section">
+    <div class="fade-in">
+      <h1><strong>About The Website</strong></h1>
+      <p><strong>Our Goal</strong></p>
+      <p>Our goal is to create a website that analysis YouTube data and be able to provide it to content creators of YouTube, viewers or users of YouTube and collaboration opportunity</p>
+
+      <p><strong>A description of the data the website contains</strong><br>
+      The data on the website will contain data that is sourced from YouTube. It will include statistical data such as the number of views or searches of the topic, the like-to-dislike ratio, the number of videos on the topic, and the comment counts. Videos or links might be selected to show the user examples of types of videos that are in the topics, to allow more understanding of the topics that they choose. Visual graphs might be presented to allow better understanding for the users.</p>
+</body>
+
+  <!-- Bottom Navigation Bar -->
+<div class="bottom-nav">
+    <div class="bottom-links">
+      <a href="Home page.html" class="button-link">Home</a>
+      <a href="Topics page.html" class="button-link">Topics</a>
+      <a href="ATW.html" class="button-link">About The Website</a>
+      <a href="Compare.html" class="button-link">Comparison Feature</a>
+    </div>
+  <p class="copyright">© 2025 Trendly Stats | All rights reserved</p>
+</div>

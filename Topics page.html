@@ -1,0 +1,139 @@
+<!-- Informs the web browser about the HTML -->
+<!DOCTYPE html>
+<!-- This improve accessibility to the website by stating the language is English -->
+<html lang="en">
+<head>
+<!-- This also improve accessibility to the website by automatically adjusting the size of the website to make it fit all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trendly Stats - Homepage</title>
+  <!-- Linking CSS to the HTML -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="navbar">
+    <div>
+      <img src="Logo.jpg" alt="Trendly Logo" style="height: 40px; vertical-align: middle;">
+      <span style="margin-left: 10px; font-size: 22px; font-weight: bold;">Trendly Stats</span>
+    </div>
+    <div>
+      <a href="Home page.html" class="button-link">Home</a>
+      <a href="Topics page.html" class="button-link">Topics</a>
+      <a href="ATW.html" class="button-link">About The Website</a>
+      <a href="Compare.html" class="button-link">Comparison Feature</a>
+    </div>
+  </div>
+
+  <!-- Screen Section (In front of the background) -->
+  <div class="screen-section">
+    <div class="inscreen-text">
+      <h1>Categories / Topics</h1>
+      <h2>These are the top five trending topics on YouTube right now. Select a topic to find out more about that topic, or scroll down to learn more about each one.</h2>
+      <!-- Clickable spans that scroll the page to each specific topic section -->
+      <h2>
+        <span onclick="document.getElementById('Gaming').scrollIntoView();">Gaming</span>
+        <span onclick="document.getElementById('Music').scrollIntoView();">Music (K-Pop & Hip-Hop)</span>
+        <span onclick="document.getElementById('YouTube Shorts').scrollIntoView();">YouTube Shorts</span>
+        <span onclick="document.getElementById('Digital Animation').scrollIntoView();">Digital Animation</span>
+        <span onclick="document.getElementById('Travel Vlogs').scrollIntoView();">Travel Vlogs</span>
+      </h2>
+    </div>
+    <!-- Instructional text at the bottom encouraging users to scroll -->
+    <p style="position: absolute; bottom: 40px; width: 100%; text-align: center; font-size: 16px; color: #f0f0f0;">
+      ↓ Scroll down to see more information ↓
+    </p>
+  </div>
+
+  <!-- Section containing detailed information about each topic -->
+  <div class="section" id="tutorial">
+
+    <!-- Topic box for Gaming -->
+    <div class="topic-box" id="Gaming">
+      <h2>Gaming</h2>
+      <img src="Game.png" alt="Gaming Image" />
+      <p><strong>Overview:</strong> Gaming videos on YouTube are videos where the content creator plays, reviews, or streams video games for entertainment</p>
+      <p><strong>Average Views Per Videos:</strong> 2.5M</p>
+      <p><strong>Like Ratio:</strong> 95%</p>
+      <p><strong>Average Comments:</strong> 12K</p>
+      <p><strong>Amount Of Videos:</strong> 50K+</p>
+      <p><strong>Example Channel:</strong> MrBeast Gaming</p>
+      <div>
+        <a href="Topic page (Gaming).html" class="button-link">Find Out More Info</a>
+      </div>
+    </div>
+
+    <!-- Topic box for Music (K-Pop & Hip-Hop) -->
+    <div class="topic-box" id="Music">
+      <h2>Music (K-Pop & Hip-Hop)</h2>
+      <img src="Music.png" alt="Music Image" />
+      <p><strong>Overview:</strong> K-Pop and Hip-Hop music videos on YouTube showcase popular songs, performances, and music trends from music artists around the world</p>
+      <p><strong>Average Views Per Videos:</strong> 3M</p>
+      <p><strong>Like Ratio:</strong> 96%</p>
+      <p><strong>Average Comments:</strong> 15K</p>
+      <p><strong>Amount Of Videos:</strong> 30K+</p>
+      <p><strong>Example Channel:</strong> Kendrick Lamar - Not Like Us</p>
+      <div>
+        <a href="Topic page (Gaming).html" class="button-link">Find Out More Info</a>
+      </div>
+    </div>
+
+    <!-- Topic box for YouTube Shorts -->
+    <div class="topic-box" id="YouTube Shorts">
+      <h2>YouTube Shorts</h2>
+      <img src="Short.png" alt="YouTube Shorts Image" />
+      <p><strong>Overview:</strong> YouTube Shorts are short-form videos, usually under 60 seconds, designed to quickly entertain or inform viewers and topics can be broad</p>
+      <p><strong>Average Views Per Videos:</strong> 1.8M</p>
+      <p><strong>Like Ratio:</strong> 94%</p>
+      <p><strong>Average Comments:</strong> 8K</p>
+      <p><strong>Amount Of Videos:</strong> 100K+</p>
+      <p><strong>Example Channel:</strong> Popular Shorts</p>
+      <div>
+        <a href="Topic page (Gaming).html" class="button-link">Find Out More Info</a>
+      </div>
+    </div>
+
+    <!-- Topic box for Digital Animation -->
+    <div class="topic-box" id="Digital Animation">
+      <h2>Digital Animation</h2>
+      <img src="Animation.jpg" alt="Digital Animation Image" />
+      <p><strong>Overview:</strong> Digital animation involves creating animated stories, characters, or series using computer software</p>
+      <p><strong>Average Views Per Videos:</strong> 2m</p>
+      <p><strong>Like Ratio:</strong> 93%</p>
+      <p><strong>Average Comments:</strong> 10K</p>
+      <p><strong>Amount Of Videos:</strong> 5K+</p>
+      <p><strong>Example Channel:</strong> The Amazing Digital Circus</p>
+      <div>
+        <a href="Topic page (Gaming).html" class="button-link">Find Out More Info</a>
+      </div>
+    </div>
+
+    <!-- Topic box for Travel Vlogs -->
+    <div class="topic-box" id="Travel Vlogs">
+      <h2>Travel Vlogs</h2>
+      <img src="Vlog.png" alt="Travel Vlogs Image" />
+      <p><strong>Overview:</strong> Travel vlogs are personal video journals where creators document and share their trips to different places around the world</p>
+      <p><strong>Average Views Per Videos:</strong> 1.5M</p>
+      <p><strong>Like Ratio:</strong> 92%</p>
+      <p><strong>Average Comments:</strong> 7K</p>
+      <p><strong>Amount Of Videos:</strong> 20K</p>
+      <p><strong>Example Channel:</strong> Top Travel Vlog</p>
+      <div>
+        <a href="Topic page (Gaming).html" class="button-link">Find Out More Info</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom Navigation Bar -->
+<div class="bottom-nav">
+    <div class="bottom-links">
+      <a href="Home page.html" class="button-link">Home</a>
+      <a href="Topics page.html" class="button-link">Topics</a>
+      <a href="ATW.html" class="button-link">About The Website</a>
+      <a href="Compare.html" class="button-link">Comparison Feature</a>
+    </div>
+  <p class="copyright">© 2025 Trendly Stats | All rights reserved</p>
+</div>
+</body>
+</html>
